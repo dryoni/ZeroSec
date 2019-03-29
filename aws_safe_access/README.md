@@ -29,7 +29,7 @@ The policies folder contains two different policies which can be used and modifi
 - If -d argument is used the rule is removed a few seconds after initial SSH connection - Safer than VPN
 
 
-To refer to an instance you can write only partial data of: instance id, name, ip, state
+To refer to an instance you can write only partial data of: Instance ID, Instance Name, Public IP, State
 If there are mulitiple matching instances, a choice will be presented
 
 ### Examples:
