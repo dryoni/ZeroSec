@@ -6,6 +6,7 @@ When you have instance which you want to access directly and without VPN you hav
 - Open your Instance to the Internet (0.0.0.0/0).
 
 Lazy developers often go to the second option.
+
 This tool can be used to grant access to public instances on AWS for your current external IP address, or to quicly access instances via SSH - Without going to the AWS Console.
 The quick SSH feature has an extra safety feature which removes the added rule a few seconds after connecting to the Instance.
 
