@@ -1,4 +1,4 @@
-# AWS Safe Access
+# AWS Safe Access Tool
 Your IP Address changes occasionaly when you move between Wifi hotspots.
 Even if you're connected to the same network, most Internet connections use Dynamic IP Address, so it frequently changes.
 When you have instance which you want to access directly and without VPN you have two options:
@@ -17,7 +17,7 @@ The quick SSH feature has an extra safety feature which removes the added rule a
 - Copy the script to your scripts folder on your laptop
 - Add an alias in your `.bash_profile` file to the script path: e.g. `alias acc='/path/to/script'`.
 
-# What access does this tool requires:
+# What access does this tool require:
 The policies folder contains two different policies which can be used and modified to allow several levels of access control:
 - **enable-all-users-access-to-all-resources-policy.json** - When this policy is attached to any IAM User, Group or Role it allows adding/removing/modifying **all security groups**, as well as launch all instances.
 - **enabled-all-users-access-tagged-resources-policy.json** - This is the more secure option. This policy allows the access mentioned above only to Security Groups and Instances with **SafeAccess** Tag set to **True.**
