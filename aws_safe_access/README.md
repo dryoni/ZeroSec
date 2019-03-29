@@ -14,7 +14,7 @@ The quick SSH feature has an extra safety feature which removes the added rule a
 
 
 # Configuration
-- Copy the script to your scripts folder
+- Copy the script to your scripts folder on your laptop
 - Add an alias in your `.bash_profile` file to the script path: e.g. `alias acc='/path/to/script'`.
 
 # What access does this tool requires:
