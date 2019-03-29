@@ -14,7 +14,7 @@ The quick SSH feature has an extra safety feature which removes the added rule a
 
 
 # What access does this tool requires:
-It's recommended to add an alias in your .bash_profile file to the script path: e.g. `alias acc='/path/to/script'`
+It's recommended to add an alias in your `.bash_profile` file to the script path: e.g. `alias acc='/path/to/script'`
 The policies folder contains two different policies which can be used and modified to allow several levels of access control:
 - **enable-all-users-access-to-all-resources-policy.json** - When this policy is attached to any IAM User, Group or Role it allows adding/removing/modifying **all security groups**, as well as launch all instances.
 - **enabled-all-users-access-tagged-resources-policy.json** - This is the more secure option. This policy allows the access mentioned above only to Security Groups and Instances with **SafeAccess** Tag set to **True.**
